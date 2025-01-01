@@ -1,19 +1,18 @@
-// Problem: Rotate an array of size n cyclically until it returns to the original 
-// order.
+// Given the head of a sorted linked list, delete all duplicates 
+// so that each element appears only once. Return the linked list's modified head.
 
-// nums = [1, 2, 3]
+// nums = [1, 1, 2, 3, 3]
 
-// [
-//     [1, 2, 3],
-//     [3, 1, 2],
-//     [2, 3, 1]
-// ]
+// [1, 2, 3]
+let nume= [1, 1, 2, 3, 3];
 
-console.log(2 - "Hello");
-console.log(typeof(2-"Hello"));
- let ab = ""
- console.log(ab || "aaaa");
-console.log({} == {})
- const array = [];
- array[10] = 0;
- console.log(array)
+let filterArray =[]
+
+nume.forEach(elements =>{
+    
+    if(!filterArray.includes(elements)){
+        filterArray.push(elements)
+    }
+})
+
+console.log(filterArray)
