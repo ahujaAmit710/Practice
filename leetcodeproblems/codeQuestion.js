@@ -36,4 +36,7 @@ let user ={
 // console.log(`user object value ${JSON.stringify(user)}`)
 
 const {name,...rest } =user
-console.log(rest)
+//console.log(rest)
+
+console.log(null == 0)
+console.log(null === 0)
