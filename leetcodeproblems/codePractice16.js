@@ -1,7 +1,5 @@
 let array =[2,5,7,10];
 
-
-
 let largNumber =0 
 
 array.forEach(element => {
@@ -10,7 +8,6 @@ array.forEach(element => {
     }
 
 });
-
 console.log(largNumber)
 
 for (let i = 0; i < largNumber; i++) {
